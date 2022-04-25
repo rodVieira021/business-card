@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #22252d;
+
+  width: 550px;
+  height: 870px;
+}
+/* INFO */
+
+.perfil-container {
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+}
+
+.perfil {
+  width: 320px;
+}
+
+.info {
+  padding-top: 55px;
+  margin: 0 auto;
+}
+
+.container-info {
+  width: 300px;
+  margin: 0 auto;
+  background-color: #1a1b21;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+}
+
+.text {
+  text-align: center;
+}
+
+.text h2 {
+  color: #fff;
+  margin-bottom: 3px;
+}
+
+.text h3 {
+  color: #f3bf99;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.text h4 {
+  color: #fff;
+  font-size: 10px;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+.btn {
+  border: none;
+  width: 110px;
+  height: 34px;
+  border-radius: 6px;
+}
+
+.btn--1 {
+  margin-right: 25px;
+}
+
+.btn--2 {
+  color: #fff;
+  background-color: #5093e2;
+}
+
+/* ABOUT */
+.container-about {
+  margin: 0 auto;
+  width: 300px;
+  padding: 30px 40px;
+  background-color: #1a1b21;
+  letter-spacing: 0.4px;
+}
+
+.cont-01 {
+  padding-bottom: 20px;
+}
+
+.container-about h2 {
+  color: rgba(255, 255, 255, 0.711);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding-bottom: 5px;
+}
+
+.container-about p {
+  font-size: 10.5px;
+  line-height: 15px;
+  color: rgba(255, 255, 255, 0.665);
+}
+
+/* FOOTER */
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 300px;
+    padding: 20px 0;
+    margin: 0 auto;
+    background-color:#161619;
+    border-radius:  0 0 10px 10px;   
+}
